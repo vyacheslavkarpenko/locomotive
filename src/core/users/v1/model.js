@@ -1,4 +1,3 @@
-
 import mongoose from 'mongoose'
 
 import { UserModelSchema } from './schema.js'
@@ -20,7 +19,6 @@ const createUser = async (body) => {
   const { password, repeatPassword } = body
   console.log('body', body)
   if (password !== repeatPassword) {
-    console.log('+++++++++++++++++++++++++++++', errors.passwordUnmathed)
     throw errors.passwordUnmathed
   } else {
     await User.create(body)

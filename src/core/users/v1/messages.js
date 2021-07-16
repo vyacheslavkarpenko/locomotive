@@ -1,7 +1,6 @@
-
 export const errors = { passwordUnmathed: { error: 'Passwords unmathed!' }}
-export const inform = { 
-  userCeated: { 
+export const inform = {
+  userCeated: {
     information: 'Uer has been created!',
     userNotFound: 'User not Found!',
   }
