@@ -1,0 +1,22 @@
+{
+  "name": "locomotive",
+  "version": "1.0.0",
+  "description": "created for api",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "Karpenko Viacheslav",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.13.12",
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
